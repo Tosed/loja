@@ -1,0 +1,189 @@
+html, body {
+    font-family: 'Avenir LT Std', sans-serif;
+    font-weight: 400;
+    background-color: #38405F;
+}
+
+h1, h2, h3, p {
+    color: #fff;
+}
+
+.navbar-container {
+    background-color: #0E131F;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.logo img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1120px;
+    height: 80px;
+    margin: 0 auto;
+}
+.c-menu {
+    display: flex;
+    margin: 0 auto;
+}
+
+.c-menu li{
+    padding: 10px;
+}
+
+.c-menu li a{
+    font-size: 18px;
+}
+
+.c-menu li a:hover{
+    transition: .5s;
+    color: #0088a9;
+}
+
+.main-container {
+    background-image: url('/img/bg6.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    position: relative;
+
+}
+
+.main-container h1, .main-container p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-container h1{
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.main-container p{
+    color: #fff;
+    font-size: 32px
+}
+
+.main-container h1:hover {
+    transition: 1s;
+    color: #0088a9;
+}
+
+.advantage {
+    padding: 5em 0;
+    margin: 0 auto;
+}
+
+.advantage ul {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.advantage ul li {
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.advantage ul h3 {
+    font-size: 25px;
+    color: #0088a9;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.advantage ul p {
+    line-height: 22px;
+}
+
+.contact-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 10px 10px 20px 0;
+}
+
+.contact-container textarea {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 460px;
+    height: 150px;
+}
+
+.contact-container input[type=submit] {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #0088a9;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.contact-container input[type=submit]:hover {
+    background-color: #0dbde9 ;
+}
+
+
+footer {
+    background-color: #0E131F;
+    width: 100%;
+    text-align: center;
+    padding: 2em 0;
+
+}
+
+@media screen and (max-width: 576px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .contact-container {
+        padding: 3em 2em;
+    }
+
+    .contact-container input, .contact-container textarea {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+}
